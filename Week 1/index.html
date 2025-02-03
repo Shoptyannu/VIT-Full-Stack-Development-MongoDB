@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anam Saeed - 22BCE11045</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #77A6F7; /* Soft blue color */
+            color: white;
+            border-radius: 10px;
+        }
+
+        .first-paragraph {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .second-paragraph {
+            font-family: 'Courier New', monospace;
+            line-height: 1.8;
+            text-align: right;
+        }
+
+        .styled-button {
+            padding: 10px 20px;
+            background-color: #77A6F7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .styled-button:hover {
+            background-color: #5a8ee0;
+            transform: scale(1.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #77A6F7;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .form-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:hover, input[type="text"]:focus {
+            border-color: #77A6F7;
+            outline: none;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <p>Student: Anam Saeed | Reg No: 22BCE11045 | VIT Bhopal</p>
+    </header>
+
+    <main>
+        <p class="first-paragraph">
+            This paragraph is now styled with the classic <strong>Times New Roman</strong> font, 
+            which is commonly used in formal documents. The text is justified for a neat appearance, 
+            and the line height ensures smooth readability.
+        </p>
+
+        <p class="second-paragraph">
+            The second paragraph now uses <strong>Courier New</strong>, a monospaced font. 
+            Monospace fonts are often used in coding and technical writing because every character 
+            takes up equal space, making it easy to read structured content.
+        </p>
+
+        <figure class="image-container">
+            <img src="Random - 1.jpeg" alt="Nature Image">
+            <figcaption>Beautiful nature scene with ladybugs and flowers.</figcaption>
+        </figure>
+
+        <button class="styled-button">Click Me!</button>
+
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+                <td>Row 1, Column 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+                <td>Row 2, Column 3</td>
+            </tr>
+        </table>
+
+        <div class="form-container">
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <button type="submit" class="styled-button">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
